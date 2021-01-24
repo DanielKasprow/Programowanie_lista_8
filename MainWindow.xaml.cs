@@ -33,7 +33,7 @@ namespace Daniel_Kasprów_lista_8v2
 
             rptViewer.ServerReport.ReportServerUrl = new Uri("http://desktop-3sj6cnc/ReportServer", UriKind.Absolute);
 
-            rptViewer.ServerReport.ReportPath = "/Test/Report1";
+            rptViewer.ServerReport.ReportPath = "/Lista8/Report1";
 
             rptViewer.RefreshReport();
         }
